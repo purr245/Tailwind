@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="./output.css" rel="stylesheet" />
+    <title>Belajar Tailwind</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="font-bold text-lg text-primary block py-6"
+              >Purata Sundara</a
+            >
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+            </button>
+
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="#home"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Home</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#about"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >About Me</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#portfolio"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Minat & Bakat</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="#contact"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >Contact Me</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+    <!-- hero section start -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1
+              class="text-base font-semibold text-primary md:text-xl lg:text-2xl"
+            >
+              Halo Semua😇, kenalin aku
+              <span class="block font-bold text-dark text-4xl mt-1"
+                >Purata Sundara</span
+              >
+            </h1>
+            <h2 class="font-medium texy-slate-500 text-lg mb-5">
+              Mahasiswa Alfa Prima - DG
+            </h2>
+            <p class="font-medium text-slate-400 mb-10 leading-relaxed">
+              Disini aku belajar bikin web profil dan portofolio (minat &
+              bakatku) menggunakan
+              <span class="font-bold text-slate-600">Tailwind CSS</span>.
+            </p>
+
+            <a
+              href="#"
+              class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              >Contact Me</a
+            >
+          </div>
+          <div class="w-full self-end px-4 lg:w-1/4">
+            <div class="relative mt-10 shadow-primary">
+              <img
+                src="/images/aa.jpg"
+                alt="Purata Sundara"
+                class="max-w-full mx-auto rounded-xl"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- hero stop -->
+    <!-- about section start -->
+    <section id="about" class="pt-36 pb-32">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h4 class="bold uppercase text-primary text-lg mb-3">
+              Tentang Aku
+            </h4>
+            <h2 class="font-bold text-dark text-3xl mb-5 max-w-md">
+              Perkenalan Diri Lebih Lanjut
+            </h2>
+            <p class="font-medium text-base text-slate-500 max-w-xl lg:text-lg">
+              Perkenalkan namaku I Gede Purata Sundara D, biasa dipanggil
+              Purata. Saya berasal dari Br. Getas Kangin, Buruan, Blahabtuh.
+              Saya lahir pada tanggal 13 Maret 2006, dengan begiitu di tahun ini
+              saya berusia 19 tahun. Saya lulusan SMA N 1 Blahbatuh. Saya
+              memiliki hobi di bidang foto dan videografi, selain itu saya juga
+              menyukai bidang editing video terutama di bagian visual effects.
+              Saya juga sempat terjun ke dunia tari bali tradisionaql, dan
+              beberapa tarian pernah saya tampilkan pada publik. Saya
+              melanjutkan kuliah di Alfa Prima Denpasar dengan mengambil jenjang
+              D1 jurusan Desain Grafis dan Animasi.
+            </p>
+          </div>
+          <div class="w-full px-4 lg:w-1/2">
+            <h3
+              class="font-semibold text-dark text-2xl mb-4 lg:text-3xl lg:pt-10"
+            >
+              Mari Berteman🙏
+            </h3>
+            <p class="font-medium text-base text-slate-500 mb-6 lg:text-lg">
+              Aku dikenal dengan pribadi yang ceria, humoris, dan dan bisa
+              mencairkan suasana. Aku juga giat ketika mengerjakan sesuatu, aku
+              tidak suka ketika ada sesuatu yang menggangguku ketika aku
+              bekerja.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+    <!-- portofolio sttart -->
+    <section id="portfolio" class="pt-36 pb-16 bg-slate-950">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h4 class="font-semibold text-lg text-primary mb-2">
+              Minat & Bakat
+            </h4>
+            <h2 class="font-bold text-white text-3xl mb-4">Projek Terbaru</h2>
+            <p class="font-medium text-md text-slate-500">
+              Seperti yang aku katakan sebelumnya, aku memiliki beberapa minat &
+              bakat, seperti:
+            </p>
+          </div>
+        </div>
+        <div class="w-full px-4 flex flex-wrap justify-center">
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="/images/porto/aaaaa.png" alt="3d" width="w-full" />
+              <h3 class="font-semibold text-xl text-white mt-5 mb-3">
+                Membuat 3d Scene di After Effects
+              </h3>
+              <p class="font-md text-base text-slate-500">
+                Aku sempat membuat projek dimana membuat 3d scene di After
+                Effects cs6 menggunakan plugin Element.
+              </p>
+            </div>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="/images/porto/anu.jpg" alt="Nari" width="w-full" />
+              <h3 class="font-semibold text-xl text-white mt-5 mb-3">
+                Menarikan Tarian Tradisional
+              </h3>
+              <p class="font-md text-base text-slate-500">
+                Aku sempat menyukai tarian bali, dan beberapa tarian telah aku
+                tampilkan, seperti tari gopala, baris tunggal, wirayuda, baris
+                gede, jauk keras. Aku menyukai tari bali sejak aku duduk di
+                bangku TK.
+              </p>
+            </div>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img src="/images/porto/bbbbbbbb.jpg" alt="edit" width="w-full" />
+              <h3 class="font-semibold text-xl text-white mt-5 mb-3">
+                Mengedit BTS Short Film
+              </h3>
+              <p class="font-md text-base text-slate-500">
+                Baru-baru ini aku ikut salah satu projek di UKM Fotografi yaitu
+                membuat short film, aku bertugas sebagai bagian BTS
+              </p>
+            </div>
+          </div>
+          <div class="mb-12 p-4 md:w-1/2">
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="/images/porto/cccccccc.jpeg"
+                alt="test literasi"
+                width="w-full"
+              />
+              <h3 class="font-semibold text-xl text-white mt-5 mb-3">
+                Test Literasi Saat SMA
+              </h3>
+              <p class="font-md text-base text-slate-500">
+                Ketika SMA aku sempat mengikuti tes literasi, dan aku mendapat
+                hasil memuaskan, yaitu unggul.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- portofolio end -->
+    <!-- contact start -->
+    <section id="contact" class="pt-14 pb-24">
+      <div class="container lg:px-24">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="w-full px-4 mb-10 lg:w-1/2">
+            <h2 class="text-3xl md:text-2xl font-bold mb-3 text-primary">
+              Hubungi Kami
+            </h2>
+            <p class="mb-4 text-slate-700 text-base font-medium lg:text-xl">
+              Kalo ada yang mau disampaiin monggo mas/mbak🙏
+            </p>
+
+            <dotlottie-player
+              class="w-[350px] mx-auto lg:w-[500px]"
+              src="https://lottie.host/fcbd2997-e4a1-4aed-b96c-81983cf1f940/ILG5iwvp2P.lottie"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></dotlottie-player>
+          </div>
+          <form
+            action=""
+            class="w-full md:w-1/2 bg-blue-950 rounded-lg border border-primary shadow-lg p-10"
+          >
+            <h1 class="text-white text-4xl font-bold mb-7">Contact Me</h1>
+            <div class="mb-4">
+              <label for="name" class="block text-sm font-medium text-white"
+                >Name</label
+              >
+              <input
+                type="text"
+                id="name"
+                placeholder="Full Name"
+                class="mt-1 p-2 mb-4 block w-full rounded-md border-white shadow-sm shadow-primary focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50"
+              />
+              <label for="email" class="block text-sm font-medium text-white"
+                >Email</label
+              >
+              <input
+                type="email"
+                id="email"
+                placeholder="Your Email"
+                class="mt-1 p-2 mb-4 block w-full rounded-md border-white shadow-sm shadow-primary focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50"
+              />
+              <label for="massege" class="block text-sm font-medium text-white"
+                >Message</label
+              >
+              <input
+                type="text"
+                id="massege"
+                placeholder="Enter Your Message"
+                class="mt-1 p-2 mb-4 block w-full rounded-md border-white shadow-sm shadow-primary focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50"
+              />
+            </div>
+            <button
+              class="bg-primary text-white px-3 py-2 rounded-lg hover:bg-sky-600 font-bold"
+            >
+              SEND
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact end -->
+    <!-- footer start -->
+    <footer class="bg-dark pt-24 pb-12">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+            <h2 class="font-bold text-4xl text-white mb-5">Purata Sundara</h2>
+            <h3 class="font-bold text-2xl mb-2">Hubungi Kami</h3>
+            <p>gedepurata254@gmail.com</p>
+            <p>Br. Getas Kangin, Desa Buruan, Blahbatuh</p>
+            <p>Gianyar</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Tautan</h3>
+            <ul>
+              <li>
+                <a
+                  href="#home"
+                  class="inline-block text-base text-white hover:text-primary mb-3"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="inline-block text-base text-white hover:text-primary mb-3"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#portfolio"
+                  class="inline-block text-base text-white hover:text-primary mb-3"
+                  >Minat & Bakat</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="inline-block text-base text-white hover:text-primary mb-3"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3945.44046058229!2d115.30920399999998!3d-8.553574000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMzMnMTIuOSJTIDExNcKwMTgnMzMuMSJF!5e0!3m2!1sid!2sid!4v1736336089437!5m2!1sid!2sid"
+              class="w-500 h-500"
+              style="border: 1px"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+
+        <div class="w-full pt-10 border-t border-slate-800">
+          <p class="font-medium text-sm text-slate-500 text-center">
+            Dibuat oleh
+            <a
+              href="https://instagram.com/pvr4ta"
+              target="_blank"
+              class="font-bold text-primary"
+              >Purata Sundara</a
+            >, menggunakan
+            <a
+              href="https://tailwindcss.com"
+              target="_blank"
+              class="font-bold text-sky-500"
+              >Tailwind CSS</a
+            >.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+    <script src="/js/script.js"></script>
+  </body>
+</html>
